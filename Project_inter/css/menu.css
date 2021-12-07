@@ -1,0 +1,54 @@
+.header-1 {
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.37);
+    position: fixed;
+}
+.header-1 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.header-1 ul {
+    padding: 20px;
+}
+.header-1 .ul > li {
+    padding: 10px;
+    background-color: rgb(255, 218, 203);
+    width: 200px;
+    height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 30px;
+}
+.header-1 .ul li a {
+    color: lightseagreen;
+    font-size: 20px;
+    transition: .4s;
+}
+.header-1 .click:hover .ul-1{
+    display: block;
+}
+.header-1  ul .ul-1 {
+    display: none;
+    padding: 10px;
+    position: relative;
+    left: -190px;
+    top: -42px;
+    transition: .3s;
+}
+.header-1  ul .ul-1 li {
+    padding: 10px;
+    background-color: rgb(255, 227, 227);
+    width: 250px;
+    height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 30px; 
+}
+.header-1  ul .ul-1 li a {
+    color: lime;
+    font-size: 17px;
+}
